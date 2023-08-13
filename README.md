@@ -1,25 +1,22 @@
-# facial_expressions
-A set of images for classifying facial expressions
+# Expresiones_faciales
+Un conjunto de imágenes para la clasificación de expresiones faciales
 
-This repository is a dataset of different facial expressions used for 
-training machine learning algorithms.
+Este repositorio es un conjunto de datos de diferentes expresiones faciales utilizado para el entrenamiento de algoritmos de aprendizaje automático.
 
-It is created by my machine learning graduate students.
+Fue creado por mis estudiantes graduados de aprendizaje automático.
 
-# Submissions
-Please do not use large image files. In general, images should be under 50KB.
-Consider that 1000 images at 50KB each is approximately 50MB
+# Envíos
+Por favor, no utilices archivos de imágenes grandes. En general, las imágenes deben tener menos de 50 KB.
+Ten en cuenta que 1000 imágenes a 50 KB cada una equivalen aproximadamente a 50 MB.
 
-# Structure
-There are two directories. The `images` directory contains raw images. These
-are unprocessed. The `data` directory contains files specific to training.
-Most importantly, this includes the `legend.csv`, which maps an image in the
-`images` directory with a facial expression. 
+# Estructura
+Existen dos directorios. El directorio imágenes contiene imágenes en bruto. Estas
+no han sido procesadas. El directorio datos contiene archivos específicos para el entrenamiento.
+Lo más importante es el archivo legend.csv, que relaciona una imagen en el directorio imágenes con una expresión facial.
 
-This file also has a user ID field. Please use something unique.
-It is primarily for tracking which students added which files.
-The IDs can be used for a secondary analysis to determine
-whether there are any patterns to the submissions.
+Este archivo también tiene un campo de ID de usuario. Por favor, utiliza algo único.
+Principalmente se utiliza para hacer un seguimiento de qué estudiantes agregaron qué archivos.
+Los IDs se pueden utilizar para un análisis secundario para determinar si existen patrones en los envíos.
 
-# Emotions
-The set of emoions used are TBD
+# Emociones
+El conjunto de emociones utilizado está por determinar (TBD).
